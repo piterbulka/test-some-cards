@@ -47,6 +47,9 @@
   font-size: 25px;
   color: var(--header-element-color);
 }
+.error-info{
+  margin-top: 20px;
+}
 
 input.switch {
   appearance: none;

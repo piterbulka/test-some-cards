@@ -36,7 +36,7 @@ const ListCards: React.FC = () => {
       </header>
 
       {status === 'error' ? (
-        <div className="content__error-info">
+        <div className="container error-info">
           <h2>Произошла ошибка 😕</h2>
           <p>К сожалению, не удалось получить картинки. Попробуйте повторить попытку позже.</p>
         </div>
